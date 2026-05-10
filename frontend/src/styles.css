@@ -1,0 +1,20 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { background: #111827; color: white; padding: 12px; display: flex; align-items: center; justify-content: space-between }
+header h1 { margin: 0 }
+nav a, nav button { color: #cbd5e1; margin-left: 12px; text-decoration: none; background: none; border: none; cursor: pointer; font: inherit }
+main { padding: 16px }
+.auth { max-width: 420px; margin: 0 auto }
+.tx-form input, .tx-form select { display: inline-block; margin-right: 8px; padding: 6px }
+.tx-row { display: flex; gap: 8px; padding: 8px; border-bottom: 1px solid #eee; align-items: center }
+.tx-row > div { min-width: 80px }
+.summary { padding: 8px 0; color: #374151 }
+.chart { width: 100%; max-width: 800px; margin-bottom: 24px }
+.error { color: red }
+.readonly { padding: 8px; background: #f8fafc; margin-bottom: 8px }
+
+/* Dark mode */
+.app.dark { background: #0f172a; color: #e5e7eb; min-height: 100vh }
+.app.dark .tx-row { border-bottom-color: #1f2937 }
+.app.dark .summary { color: #e5e7eb }
+.app.dark .readonly { background: #1f2937; color: #e5e7eb }
+.app.dark input, .app.dark select { background: #1f2937; color: #e5e7eb; border: 1px solid #374151 }
